@@ -1,11 +1,13 @@
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 30px auto;
+  margin:  auto;
+  
 }
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
+  margin: 30px auto;
 }
 .weatherInfo{
     margin-bottom: 20px;
@@ -38,4 +40,13 @@ li {
   position: relative;
   font-size: 16px;
   font-weight: 600;
+}
+.code{
+   
+    text-align: center;
+    font-size: 12px;
+       position: fixed;
+       
+    left: 50%;
+    transform: translateX(-50%);
 }
