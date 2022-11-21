@@ -26,16 +26,18 @@ li {
 .icon {
   margin-right: 8px;
   height: 85px;
-  width: 85px;
+  width: 85;
+}
+a {
+  text-decoration: none;
 }
 .temperature {
-  color: #488b8f;
+  color: black;
   font: weight 400px;
   line-height: 1;
 }
-
 .units {
-  color: #488b8f;
+  color: black;
   position: relative;
   font-size: 16px;
   font-weight: 600;
@@ -58,10 +60,9 @@ li {
   margin-top: 20px;
   text-align: center;
   color: #000;
-
 }
 .weather-temperature img {
- margin-right: 5px;
+  margin-right: 5px;
   height: 64px;
   width: 64px;
 }
@@ -71,8 +72,8 @@ li {
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
+  text-decoration-line: none;
 }
-
 
 .weather-temperature .active {
   color: rgb(33, 33, 33);
